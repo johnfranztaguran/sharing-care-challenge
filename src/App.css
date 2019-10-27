@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}

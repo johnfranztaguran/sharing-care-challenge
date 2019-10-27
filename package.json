@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.24.2",
+    "axios": "^0.19.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-smooth-scrollbar": "^8.0.6",
+    "smooth-scrollbar": "^8.5.0",
+    "styled-components": "^4.4.0",
+    "styled-theme": "^0.3.3",
+    "uuid": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
