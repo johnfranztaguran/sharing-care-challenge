@@ -34,9 +34,9 @@ class App extends React.PureComponent {
   }
 
   componentDidUpdate = (prevState, nextState) => {
-    if (JSON.parse(localStorage.getItem('allCareItem')).length !== nextState.addedItem.length) {
-      this.getExistingData();
-    }
+    // if (JSON.parse(localStorage.getItem('allCareItem')).length !== nextState.addedItem.length) {
+    //   this.getExistingData();
+    // }
     if (JSON.stringify(JSON.parse(localStorage.getItem('allCareItem'))) !== JSON.stringify(nextState.addedItem)) {
       this.getExistingData();
     }
